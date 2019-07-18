@@ -1,0 +1,10 @@
+<div [@selectCup]="isOpen ? 'open' : 'closed'" class="card" style="width: 100%;">
+  <div class="card-body">
+    <h5 class="card-title">Auswahl des Bechers</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Wählen Sie die gewünschte Größe</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p>The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
+    <a href="#" class="card-link d-none">zurück</a>
+    <a href="#" class="card-link" routerLink="/options">Weiter</a>
+  </div>
+</div>
